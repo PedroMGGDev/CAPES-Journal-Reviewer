@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compatibilidade de Revistas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador de Compatibilidade com Revistas Acadêmicas</h1>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>Submeta seu Abstract</h2>
+            <label for="area-select">Selecione sua área de concentração:</label>
+            <select id="area-select">
+                <option value="Ciência da Computação">Ciência da Computação</option>
+                <option value="Engenharia Elétrica">Engenharia Elétrica</option>
+                <option value="Estatística">Estatística</option>
+                <option value="Ciência de Dados">Ciência de Dados</option>
+            </select>
+
+            <textarea id="abstract-input" placeholder="Insira o texto do seu abstract aqui..." rows="6"></textarea>
+            <button id="submit-button">Analisar Compatibilidade</button>
+        </section>
+
+        <section id="results-section" style="display: none;">
+            <h2>Revistas Compatíveis</h2>
+            <button id="sort-qualis-button">Priorizar por Qualis</button>
+            <button id="sort-impact-button">Priorizar por Fator de Impacto</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Revista</th>
+                        <th>Qualis</th>
+                        <th>Fator de Impacto</th>
+                        <th>Link para Submissão</th>
+                    </tr>
+                </thead>
+                <tbody id="results-table"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
