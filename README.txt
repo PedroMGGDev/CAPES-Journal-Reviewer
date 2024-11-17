@@ -111,14 +111,3 @@ python predict_model.py
 
 O modelo pode ser re-treinado com novos dados, caso necessário. Para isso, basta adicionar mais abstracts e revistas no arquivo predict_model.py, e rodar o treinamento novamente.
 
-### Ajustes no Sistema
-
-Você pode ajustar o sistema para suportar outras áreas de concentração, ou até mesmo integrar com outras fontes de dados (como dados de revistas externas), para enriquecer o modelo e torná-lo mais preciso.
-
-## Contribuições
-
-Contribuições para melhorar este sistema são bem-vindas! Se você deseja melhorar ou adicionar novas funcionalidades, sinta-se à vontade para abrir uma issue ou submeter um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.
